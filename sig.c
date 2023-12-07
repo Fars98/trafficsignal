@@ -9,7 +9,7 @@ void* vehicle(void*);
 int main()
 {
 	pthread_t tid[4];
-	sem_init(&signal,0,1);
+	sem_init(&signal,0,2);
 	int i,v[4];
 	for(i=0;i<4;i++)
 	{
